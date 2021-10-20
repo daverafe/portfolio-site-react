@@ -1,4 +1,5 @@
 import './App.css';
+import {BrowserRouter as Router} from 'react-router-dom'
 import ProjectContainer from './components/ProjectContainer';
 
 function App() {
@@ -23,12 +24,14 @@ const lifestyleRoster =  {
 }
 
   return (
-    <div className="App">
-      <h1>Projects</h1>
-      <ProjectContainer projectInfo={artMarket}></ProjectContainer>
-      <ProjectContainer projectInfo={queue}></ProjectContainer>
-      <ProjectContainer projectInfo={lifestyleRoster}></ProjectContainer>
-    </div>
+    <Router>
+      <div className="App">
+        <h1>Projects</h1>
+        <ProjectContainer projectInfo={artMarket}></ProjectContainer>
+        <ProjectContainer projectInfo={queue}></ProjectContainer>
+        <ProjectContainer projectInfo={lifestyleRoster}></ProjectContainer>
+      </div>
+    </Router>
   );
 }
 
