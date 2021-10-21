@@ -12,10 +12,6 @@ code {
     monospace;
 }
 
-.container {
-  border: 1px solid black;
-}
-
 div[id='art market'] {
   width: 50%;
 }
