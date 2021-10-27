@@ -14,13 +14,47 @@ code {
 
 div[id='art market'] {
   margin-bottom: 30px;
+  background-color: #818181;
+  padding-top: 15px;
 }
 
 div[id='queue'] {
   margin-bottom: 30px;
+  background-color: #818181;
+  padding-top: 15px;
+}
+
+div[id='lifestyle roster'] {
+  margin-bottom: 30px;
+  background-color: #818181;
+  padding-top: 15px;
 }
 
 img {
   height: 400px;
   width: 500px;
+}
+
+div[id='art market'] p {
+  color: white;
+}
+
+div[id='art market'] h2 {
+  color: white;
+}
+
+div[id='queue'] p {
+  color: white;
+}
+
+div[id='queue'] h2 {
+  color: white;
+}
+
+div[id='lifestyle roster'] p {
+  color: white;
+}
+
+div[id='lifestyle roster'] h2 {
+  color: white;
 }

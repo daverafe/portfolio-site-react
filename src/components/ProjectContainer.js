@@ -29,7 +29,7 @@ function ProjectContainer() {
     return (
         <div id="project-container">
             <Container>
-               <h1>Projects</h1>
+               <h1>Featured Projects</h1>
                <Project projectInfo={artMarket}></Project>
                <Project projectInfo={queue}></Project>
                <Project projectInfo={lifestyleRoster}></Project>
