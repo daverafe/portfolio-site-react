@@ -30,8 +30,18 @@ div[id='lifestyle roster'] {
   padding-top: 15px;
 }
 
+#about {
+  background-color: #17698F;
+  color: white;
+}
+
 img {
   height: 400px;
+  width: 500px;
+}
+
+#about img {
+  height: 500px;
   width: 500px;
 }
 
