@@ -9,6 +9,7 @@ function Project({projectInfo}) {
                 <Link to={projectInfo.url}><img src={projectInfo.image} alt="tech icon"/></Link>
                 <Link to={projectInfo.url}><h2>{projectInfo.title}</h2></Link>
                 <p>{projectInfo.description}</p>
+                <p>{projectInfo.technologies}</p>
             </Container>
         </div>
     )

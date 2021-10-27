@@ -13,18 +13,10 @@ code {
 }
 
 div[id='art market'] {
-  width: 50%;
+  margin-bottom: 30px;
 }
 
 div[id='queue'] {
-  width: 50%;
-  float: right;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 
-div[id='lifestyle roster'] {
-  width: 50%;
-  float: left;
-  margin-top: 500px;
-}
