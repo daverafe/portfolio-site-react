@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
 }
 
 code {
@@ -12,22 +13,33 @@ code {
     monospace;
 }
 
+h1 {
+  color: white;
+}
+
+h5 {
+  color: white;
+}
+
 div[id='art market'] {
   margin-bottom: 30px;
   background-color: #818181;
   padding-top: 15px;
+  opacity: 0.9;
 }
 
 div[id='queue'] {
   margin-bottom: 30px;
-  background-color: #818181;
+  background-color: #803FF3;
   padding-top: 15px;
+  opacity: 0.9;
 }
 
 div[id='lifestyle roster'] {
   margin-bottom: 30px;
-  background-color: #818181;
+  background-color: #3FBFF3;
   padding-top: 15px;
+  opacity: 0.9;
 }
 
 #about {
