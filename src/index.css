@@ -55,28 +55,34 @@ img {
 #about img {
   height: 500px;
   width: 500px;
+  margin-top: 20px;
 }
 
-div[id='art market'] p {
-  color: white;
+#about a {
+  text-decoration: none;
 }
+
 
 div[id='art market'] h2 {
   color: white;
 }
 
-div[id='queue'] p {
-  color: white;
+div[id='art market'] a {
+  text-decoration: none;
 }
 
 div[id='queue'] h2 {
   color: white;
 }
 
-div[id='lifestyle roster'] p {
-  color: white;
+div[id='queue'] a {
+  text-decoration: none;
 }
 
 div[id='lifestyle roster'] h2 {
   color: white;
+}
+
+div[id='lifestyle roster'] a {
+  text-decoration: none;
 }
