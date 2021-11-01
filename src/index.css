@@ -25,26 +25,30 @@ div[id='art market'] {
   margin-bottom: 30px;
   background-color: #818181;
   padding-top: 15px;
-  opacity: 0.9;
+  opacity: 0.8;
+  border-radius: 10px;
 }
 
 div[id='queue'] {
   margin-bottom: 30px;
   background-color: #803FF3;
   padding-top: 15px;
-  opacity: 0.9;
+  opacity: 0.8;
+  border-radius: 10px;
 }
 
 div[id='lifestyle roster'] {
   margin-bottom: 30px;
   background-color: #3FBFF3;
   padding-top: 15px;
-  opacity: 0.9;
+  opacity: 0.8;
+  border-radius: 10px;
 }
 
 #about {
   background-color: #17698F;
   color: white;
+  opacity: 0.8;
 }
 
 img {
@@ -56,6 +60,7 @@ img {
   height: 500px;
   width: 500px;
   margin-top: 20px;
+  border-radius: 10px;
 }
 
 #about a {
