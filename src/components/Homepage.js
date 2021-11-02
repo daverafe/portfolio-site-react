@@ -4,8 +4,8 @@ import {Button} from 'react-bootstrap'
 
 function Homepage() {
     return (
-        <div>
-            <h1>Welcome To My Portfolio Site</h1>
+        <div id="homepage">
+            <h1>David Rafe's Portfolio Site</h1>
             <h3>Frontend software engineer new to the industry</h3>
             <h3>Check out my projects and find out a little more about me here</h3>
             <Link to="/projects">
