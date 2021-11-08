@@ -5,9 +5,9 @@ import {Button, Container, Row, Col} from 'react-bootstrap'
 function Homepage() {
     return (
         <div id="homepage">
-            <h1>David Rafe's Portfolio Site</h1>
-            <h3>Frontend software engineer new to the industry</h3>
-            <h3>Check out my projects and find out a little more about me here</h3>
+            <h1>David Rafe</h1>
+            <h3>Emerging Frontend Software Engineer</h3>
+            <h3>Check out my projects, and find out a little more about me here</h3>
             <Link to="/projects">
                 <Button variant="secondary">Projects</Button>{' '}
             </Link>
