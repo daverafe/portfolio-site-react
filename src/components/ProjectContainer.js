@@ -30,6 +30,7 @@ function ProjectContainer() {
         <div id="project-container">
             <Container>
                <h1>Featured Projects</h1>
+               <h3>Here are several projects I built from concept through to deployment. Click on the image or title to check out the live site.</h3>
                <Project projectInfo={artMarket}></Project>
                <Project projectInfo={queue}></Project>
                <Project projectInfo={lifestyleRoster}></Project>
