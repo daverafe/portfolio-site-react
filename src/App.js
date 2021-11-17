@@ -4,6 +4,7 @@ import ProjectContainer from './components/ProjectContainer';
 import AboutContainer from './components/AboutContainer';
 import NavBar from './components/NavBar';
 import Homepage from './components/Homepage';
+import Welcome from './components/Welcome';
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
       <div className="App">
       <NavBar/>
       <Switch>
-        <Route exact path="/" component={Homepage}/>
+        <Route exact path="/" component={Welcome}/>
+        <Route exact path="/home" component={Homepage}/>
         <Route exact path="/projects" component={ProjectContainer}/>
         <Route exact path="/about" component={AboutContainer}/>
       </Switch>
