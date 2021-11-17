@@ -140,6 +140,14 @@ div[id='lifestyle roster'] a {
   box-shadow: 0 0 10px #9ecaed;
 }
 
+#welcome {
+  margin-top: 175px;
+  margin-left: 350px;
+  border: 1px solid gray;
+  width: 50%;
+  padding: 20px;
+}
+
 @media (max-width: 500px) {
   #homepage {
     background-color: black;
